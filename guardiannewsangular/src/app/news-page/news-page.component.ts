@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NewsService } from '../news.service';
 
 
 
@@ -12,13 +13,15 @@ export class NewsPageComponent {
 
   newsArticles: any;
 
-  test: string = 'News home page';
 
-
-  constructor() {}
+  constructor(public newsService: NewsService) {}
 
   ngOnInit() {
-
+    this.newsService.getPosts()
+      .subscribe(response => {
+        this.newsArticles = response?.results
+        console.log('newsArticles', this.newsArticles)
+      });
   }
 }
 
