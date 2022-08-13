@@ -26,10 +26,3 @@ export interface ResultsArray  {
   pillarName?: string;
 }
 
-
-export interface Article {
-  results: Array<any>;
-  webTitle: string;
-  webUrl: string;
-  webPublicationDate: string;
-}
