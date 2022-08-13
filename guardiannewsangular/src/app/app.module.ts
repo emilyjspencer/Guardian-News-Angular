@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NewsPageComponent } from './news-page/news-page.component';
 import { NewsService } from './news.service';
+import { FormatDatePipe } from './pipes/formatDate.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NewsPageComponent
+    NewsPageComponent,
+    FormatDatePipe
   ],
   imports: [
     BrowserModule,

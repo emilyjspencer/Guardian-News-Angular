@@ -1,1 +1,10 @@
-<p>News page component</p>
+<h1>Guardian News</h1>
+<h3>Check out the latest articles</h3>
+
+<ul class="list-group" *ngFor="let article of newsArticles">
+  <li>
+    <b>{{ article.webTitle }}</b>
+  </li>
+  <li>{{ article.webUrl }}</li>
+  <li>{{ article.webPublicationDate | formatDate }}</li>
+</ul>
