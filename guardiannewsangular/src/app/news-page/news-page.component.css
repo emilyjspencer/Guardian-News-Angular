@@ -7,3 +7,12 @@ ul {
   list-style-position: inside;
   list-style-type: none;
 }
+
+img {
+  width: 100%;
+  height: 300px;
+}
+
+body {
+  background-color: gray;
+}

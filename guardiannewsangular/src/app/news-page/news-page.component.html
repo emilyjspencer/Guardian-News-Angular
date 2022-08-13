@@ -1,3 +1,6 @@
+<div>
+  <img src="/assets/img/news.png" alt="newspaper">
+</div>
 <h1>Guardian News</h1>
 <h3>Check out the latest articles</h3>
 
@@ -5,6 +8,6 @@
   <li>
     <b>{{ article.webTitle }}</b>
   </li>
-  <li>{{ article.webUrl }}</li>
-  <li>{{ article.webPublicationDate | formatDate }}</li>
+  <li><a href="{{ article.webUrl }}">{{ article.webUrl }}</a></li>
+  <li><b>{{ article.webPublicationDate | formatDate }}</b></li>
 </ul>

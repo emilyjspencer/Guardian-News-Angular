@@ -1,27 +1,46 @@
 # Guardiannewsangular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+# Guardian News
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+For our Week 7 weekend challenge at Makers Academy, we were asked to create a single page application, using vanilla JavaScript, the Guardian API and our own testing frameworks.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+I re-created this application using React. I then re-created it using Angular.
 
-## Build
+The ten most recent news stories are pulled in from the Guardian API as links and rendered on the page, with their title and date of publication.
+These links are clickable. Clicking on them takes the user to the new story on the Guardian's website.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### How to run:
 
-## Running unit tests
+* Clone this repository: 
+```html
+git clone https://github.com/emilyjspencer/Guardian-News-Angular.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Navigate into the repository:
+```html
+cd Guardian-News-Angular
+```
 
-## Running end-to-end tests
+* Enter the following into the command line to install the dependencies:
+```html
+npm install
+```
+* Enter the following to start the application, which will open automatically in the browser at localhost:3000:
+```html
+ng serve
+```
+Navigate to localhost:4200
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Built with:
 
-## Further help
+* Angular
+* TypeScript
+* CSS
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### What it looks like:
+
+![guardiannewsangular](guardiannewsangular.png)
+
+
