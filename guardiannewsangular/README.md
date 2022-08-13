@@ -27,7 +27,7 @@ cd Guardian-News-Angular
 ```html
 npm install
 ```
-* Enter the following to start the application, which will open automatically in the browser at localhost:3000:
+* Enter the following to start the application, which will open automatically in the browser at localhost:4200:
 ```html
 ng serve
 ```
