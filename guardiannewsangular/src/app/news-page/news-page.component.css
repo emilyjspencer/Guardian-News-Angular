@@ -16,3 +16,38 @@ img {
 body {
   background-color: gray;
 }
+
+.cards {
+  width: 580px;
+}
+
+
+.card-item {
+  min-width: 100%;
+  margin: 40px;
+  text-align: center;
+}
+
+.mat-card-title {
+  margin: 20px !important;
+}
+
+.mat-card-footer {
+  margin: 20px !important;
+}
+
+.mat-card-content {
+  padding: 10px !important;
+}
+
+
+#guardianlogo {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: -25px;
+}
+

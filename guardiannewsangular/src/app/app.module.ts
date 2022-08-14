@@ -8,7 +8,9 @@ import { AppComponent } from './app.component';
 import { NewsPageComponent } from './news-page/news-page.component';
 import { NewsService } from './news.service';
 import { FormatDatePipe } from './pipes/formatDate.pipe';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import {MatCardModule} from '@angular/material/card';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,9 @@ import { FormatDatePipe } from './pipes/formatDate.pipe';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    RouterModule
+    RouterModule,
+    BrowserAnimationsModule,
+    MatCardModule
   ],
   providers: [NewsService],
   bootstrap: [AppComponent]
