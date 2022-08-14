@@ -43,4 +43,6 @@ Navigate to localhost:4200
 
 ![guardiannewsangular](guardiannewsangular.png)
 
+#### With Angular Material
 
+![guardiannewsangularmaterial](newsangularmaterial.png)

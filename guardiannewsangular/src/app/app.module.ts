@@ -10,6 +10,7 @@ import { NewsService } from './news.service';
 import { FormatDatePipe } from './pipes/formatDate.pipe';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import {MatGridListModule} from '@angular/material/grid-list';
 import {MatCardModule} from '@angular/material/card';
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {MatCardModule} from '@angular/material/card';
     HttpClientModule,
     RouterModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    MatGridListModule
   ],
   providers: [NewsService],
   bootstrap: [AppComponent]

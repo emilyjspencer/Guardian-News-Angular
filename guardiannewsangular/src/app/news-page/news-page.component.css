@@ -17,27 +17,41 @@ body {
   background-color: gray;
 }
 
+
 .cards {
   width: 580px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
+.mat-grid-list {
+  display: flex !important;
+  flex-direction: row !important;
+}
 
 .card-item {
   min-width: 100%;
   margin: 40px;
-  text-align: center;
+  display: inline-block;
+}
+
+.mat-card {
+  display: inline-block !important;
 }
 
 .mat-card-title {
   margin: 20px !important;
+  font-size: 20px;
 }
 
 .mat-card-footer {
   margin: 20px !important;
+  font-size: 12px;
 }
 
 .mat-card-content {
-  padding: 10px !important;
+  padding: 10px !important;;
 }
 
 
@@ -49,5 +63,11 @@ body {
   margin-right: auto;
   width: 50%;
   margin-top: -25px;
+}
+
+
+.more-news {
+  text-align: center;
+  padding: 20px;
 }
 

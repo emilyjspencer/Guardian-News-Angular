@@ -3,10 +3,9 @@
 </div>
 <h1>Guardian News</h1>
 <h3>Check out the latest articles</h3>
-
-<div fxLayout='row wrap' fxLayoutWrap class="cards">
-<div fxFlex="20" class="card-item"  *ngFor="let article of newsArticles">
-  <mat-card>
+<div class="cards">
+<div class="card-item"  *ngFor="let article of newsArticles">
+  <mat-card >
     <mat-card-title>{{ article.webTitle}}</mat-card-title>
     <mat-card-content><a href="{{ article.webUrl }}">{{ article.webUrl }}</a></mat-card-content>
     <picture>
@@ -14,10 +13,11 @@
       <img id="guardianlogo" mat-card-image src="/assets/img/guardianlogo.jpg" alt="Guardian Newspaper Logo">
     </picture>
     <mat-card-footer>	<b>{{ article.webPublicationDate | formatDate }}</b></mat-card-footer>
-    </mat-card>
-
-
+  </mat-card>
 </div>
 
+<div class="more-news">
+  <h3><a href="https://www.theguardian.com/uk">View more news stories here: </a></h3>
+</div>
 
 
