@@ -46,3 +46,10 @@ Navigate to localhost:4200
 #### With Angular Material
 
 ![guardiannewsangularmaterial](newsangularmaterial.png)
+
+# Improvements
+
+* Centre the cards
+* Make the image a link instead
+* Use graphQL
+* Fetch and display news by 'area'
