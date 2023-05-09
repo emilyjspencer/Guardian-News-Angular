@@ -1,8 +1,10 @@
 <div>
   <img src="/assets/img/news.png" alt="newspaper">
 </div>
+<div class="news-container">
 <h1>Guardian News</h1>
-<h3>Check out the latest articles from the Guardian newspaper</h3>
+<h4>Check out the latest articles from the Guardian newspaper</h4>
+</div>
 <div class="cards">
 <div class="card-item"  *ngFor="let article of newsArticles">
   <mat-card >
@@ -15,9 +17,8 @@
     <mat-card-footer>	<b>{{ article.webPublicationDate | formatDate }}</b></mat-card-footer>
   </mat-card>
 </div>
-
 <div class="more-news">
-  <h3><a href="https://www.theguardian.com/uk">View more news stories here: </a></h3>
+  <h3><a href="https://www.theguardian.com/uk">View more news stories from the Guardian here: </a></h3>
 </div>
 
 
