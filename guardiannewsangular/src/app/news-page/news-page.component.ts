@@ -7,7 +7,7 @@ import { NewsService } from '../news.service';
 @Component({
   selector: 'app-news-page',
   templateUrl: './news-page.component.html',
-  styleUrls: ['./news-page.component.css']
+  styleUrls: ['./news-page.component.scss']
 })
 export class NewsPageComponent {
 

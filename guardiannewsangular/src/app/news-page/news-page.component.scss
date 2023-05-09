@@ -23,6 +23,7 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 .mat-grid-list {
@@ -69,5 +70,10 @@ body {
 .more-news {
   text-align: center;
   padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
