@@ -8,17 +8,18 @@
 <div class="cards">
 <div class="card-item"  *ngFor="let article of newsArticles">
   <mat-card >
-    <mat-card-title>{{ article.webTitle}}</mat-card-title>
-    <mat-card-content><a href="{{ article.webUrl }}">{{ article.webUrl }}</a></mat-card-content>
     <picture>
       <source media='(min-width:0px)' srcset="assets/img/guardianlogo.jpg">
       <img id="guardianlogo" mat-card-image src="/assets/img/guardianlogo.jpg" alt="Guardian Newspaper Logo">
     </picture>
+    <mat-card-title>{{ article.webTitle}}</mat-card-title>
+    <mat-card-content><a href="{{ article.webUrl }}">View article here:</a></mat-card-content>
+
     <mat-card-footer>	<b>{{ article.webPublicationDate | formatDate }}</b></mat-card-footer>
   </mat-card>
 </div>
 <div class="more-news">
-  <h3><a href="https://www.theguardian.com/uk">View more news stories from the Guardian here: </a></h3>
+  <h4><a href="https://www.theguardian.com/uk">View more news stories from the Guardian here: </a></h4>
 </div>
 
 
