@@ -43,7 +43,7 @@ Navigate to localhost:4200
 
 ### What it looks like:
 
-![news](guardiannewsangular.png)
+![news](guardiannews.png)
 
 # Improvements
 
