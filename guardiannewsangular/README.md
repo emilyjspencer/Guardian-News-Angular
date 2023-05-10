@@ -37,14 +37,16 @@ Navigate to localhost:4200
 
 * Angular
 * TypeScript
-* CSS
+* SCSS
+* Guardian API
+* Angular HTTPClient
 
 ### What it looks like:
 
-
+![news](guardiannewsangular.png)
 
 # Improvements
 
-* Make the image a link instead
 * Use graphQL
 * Fetch and display news by 'area'
+* Make responsive
